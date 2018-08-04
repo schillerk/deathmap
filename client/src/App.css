@@ -23,3 +23,6 @@ h1 {
     background-color: red; }
   .more:active {
     background-color: #FFEFA9; }
+
+.mapboxgl-ctrl {
+  display: none; }
