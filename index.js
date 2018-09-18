@@ -6,7 +6,6 @@ const app = express();
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, 'client/build')));
 
-// Put all API endpoints under '/api'
 app.get('/api/data', (req, res) => {
   const data = [Math.random(), Math.random()];
   res.json(data);
